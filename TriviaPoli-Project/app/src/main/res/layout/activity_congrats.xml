@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CongratsActivity">
+
+    <ImageView
+        android:id="@+id/imageViewCongrats"
+        android:layout_width="0dp"
+        android:layout_height="910dp"
+        android:scaleY="0.9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/congratsscreen" />
+
+    <Button
+        android:id="@+id/buttonHomeCongrats"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="343dp"
+        android:layout_marginTop="808dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="72dp"
+
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="launchMainActivity"
+        android:text=""
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCongrats"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCongrats"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCongrats"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCongrats" />
+
+    <Button
+        android:id="@+id/buttonBackCongrats"
+        android:layout_width="24dp"
+        android:layout_height="20dp"
+
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="819dp"
+        android:layout_marginEnd="358dp"
+
+        android:layout_marginBottom="71dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="launchSelectionActivity"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCongrats"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCongrats"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCongrats"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCongrats" />
+
+    <Button
+        android:id="@+id/buttonCongrats"
+        android:layout_width="413dp"
+        android:layout_height="742dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="119dp"
+
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="launchSelectionActivity"
+        android:text=""
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCongrats"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCongrats"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCongrats"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCongrats" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
